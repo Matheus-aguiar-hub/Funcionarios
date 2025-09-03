@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+ body{
+    background-color: aliceblue;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+ }
+
+ main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    height: 90vh;      
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+ }
+
+
+img{
+    display: flex;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+
+ h1{
+    font-size: 80px;
+    margin-top: 0;
+    background-color: #c0c0ac;
+    height: 15vh;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+ }
+ 
+ .galeria{
+    display: inline-block;
+    justify-content: space-between;
+    border: 10px black;
+    padding: 32px;
+    box-shadow: 5px 5px 10px black;
+ }
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.galeria:hover {
+    padding: 46px;
+    transition: 1s;
+
+}
+
+header{
+    background: url(/img/Pngtreealphabet\ rh\ image\ physical\ fitness_5533579.png);  
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 5px;
+    right: 0px;
+    height: 130px; 
+    width: 250px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.matheus{
+    color: rgb(238, 255, 0);
+}
+
+.gustavo{
+    color: blue;
+}
+
+.pedro{
+    color: red;
+}
+
+
