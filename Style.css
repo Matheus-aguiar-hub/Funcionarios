@@ -1,31 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 
 }
 
- body{
+body {
     background-color: aliceblue;
     justify-content: space-around;
     margin: 0;
     padding: 0;
- }
+}
 
- main{
+main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    height: 90vh;      
+    height: 90vh;
     justify-content: center;
     align-items: center;
     display: flex;
     gap: 200px;
     text-align: center;
     background-color: rgb(255, 255, 255);
- }
+}
 
 
-img{
+img {
     display: flex;
     height: 20vh;
     width: 20vh;
@@ -33,7 +33,7 @@ img{
     background-color: antiquewhite;
 }
 
- h1{
+h1 {
     font-size: 80px;
     margin-top: 0;
     background-color: #c0c0ac;
@@ -41,17 +41,17 @@ img{
     color: #ffffff;
     text-align: center;
     justify-content: center;
- }
- 
- .galeria{
+}
+
+.galeria {
     display: inline-block;
     justify-content: space-between;
     border: 10px black;
     padding: 32px;
     box-shadow: 5px 5px 10px black;
- }
+}
 
-a{
+a {
     text-decoration: none;
     font-size: 40px;
 }
@@ -62,34 +62,32 @@ a{
 
 }
 
-header{
-    background: url(/img/Pngtreealphabet\ rh\ image\ physical\ fitness_5533579.png);  
+header {
+    background: url(/img/Pngtreealphabet\ rh\ image\ physical\ fitness_5533579.png);
     position: absolute;
     justify-content: center;
     align-items: center;
     display: flex;
     top: 5px;
     right: 0px;
-    height: 130px; 
+    height: 130px;
     width: 250px;
 }
 
-.logo{
+.logo {
     height: 100px;
     width: 100px;
     margin-right: 20px;
 }
 
-.matheus{
+.matheus {
     color: rgb(238, 255, 0);
 }
 
-.gustavo{
+.gustavo {
     color: blue;
 }
 
-.pedro{
+.pedro {
     color: red;
 }
-
-
